@@ -10,5 +10,5 @@ import org.springframework.data.mongodb.core.mapping.Document
 data class DbSequence(
     @Id
     var id: String,
-    var seqNo: Int
+    var seq: Int
 )

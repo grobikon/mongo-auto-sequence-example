@@ -16,6 +16,6 @@ data class Book(
     companion object {
         //@Transient используется, чтобы указать, что поле не сохраняется в базе данных
         @Transient
-        const val SEQUENCE_NAME = "user_sequence"
+        const val SEQUENCE_NAME = "book_sequence"
     }
 }
